@@ -1,4 +1,4 @@
-# what is this
+# What is this
 this package to create auto crud operation in node js
 # mysql-crud-node Installation
 `npm install --save mysql-crud-node`
@@ -7,13 +7,13 @@ Then...
 
 ...
 import {mysqlCrudNode} from `mysql-crud-node`;
-```json
+```javascript
 mysqlCrudNode({
     table_name:'users',
     table_fields:{
-        name:STRING,
-        emal:STRING,
-        password:TEXT
+        name:'STRING',
+        emal:'STRING',
+        password:'TEXT'
         },
     valid_fields:{
         name:{required,min:2}
@@ -22,7 +22,6 @@ mysqlCrudNode({
     }
 });
 ```
-...
 
 ## Options
 
