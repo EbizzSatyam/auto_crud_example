@@ -7,7 +7,7 @@ Then...
 
 ...
 import {mysqlCrudNode} from `mysql-crud-node`;
-
+```json
 mysqlCrudNode({
     table_name:'users',
     table_fields:{
@@ -21,11 +21,12 @@ mysqlCrudNode({
         password:{min:6}
     }
 });
+```
 ...
 
 ## Options
 
-In this package 3 Optionans are there
+In this package 3 Options are there
 
 * *table_name* here is your table name 
 * *table_fields* here is your table fields name list
