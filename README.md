@@ -16,8 +16,8 @@ mysqlCrudNode({
         password:'TEXT'
         },
     valid_fields:{
-        name:{required,min:2}
-        email:{email,required}
+        name:{required,min:2},
+        email:{email,required},
         password:{min:6}
     }
 });
